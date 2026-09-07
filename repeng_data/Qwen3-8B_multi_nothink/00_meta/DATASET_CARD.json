@@ -1,0 +1,58 @@
+{
+  "model": "Qwen3-8B",
+  "protocol": "multi",
+  "enable_thinking": false,
+  "dataset_run_dirname": "Qwen3-8B",
+  "filtered_dirname": "Qwen3-8B",
+  "flip_column": "final_flipped",
+  "require_valid": true,
+  "require_round0_correct": true,
+  "domains": [
+    "mmlu",
+    "csqa"
+  ],
+  "domain_map": {
+    "mmlu": "mmlu_dev",
+    "csqa": "commonsenseqa_dev"
+  },
+  "method": "item_summary_indices -> filtered_data correct.json",
+  "outputs": {
+    "mmlu": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/01_candidates/mmlu_deep_flip.json",
+    "csqa": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/01_candidates/csqa_deep_flip.json"
+  },
+  "per_domain": {
+    "mmlu": {
+      "n_total": 237,
+      "n_selected": 108,
+      "flip_column": "final_flipped",
+      "require_valid": true,
+      "require_round0_correct": true,
+      "domain": "mmlu",
+      "dataset_run_dir": "<repo-root>/dataset/mmlu_dev/Qwen3-8B",
+      "item_summary": "<repo-root>/dataset/mmlu_dev/Qwen3-8B/item_summary.csv",
+      "correct_json": "<repo-root>/filtered_data/mmlu_dev/Qwen3-8B/correct.json",
+      "n_correct_json": 237,
+      "n_missing_index": 0,
+      "missing_indices_head": []
+    },
+    "csqa": {
+      "n_total": 977,
+      "n_selected": 819,
+      "flip_column": "final_flipped",
+      "require_valid": true,
+      "require_round0_correct": true,
+      "domain": "csqa",
+      "dataset_run_dir": "<repo-root>/dataset/commonsenseqa_dev/Qwen3-8B",
+      "item_summary": "<repo-root>/dataset/commonsenseqa_dev/Qwen3-8B/item_summary.csv",
+      "correct_json": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json",
+      "n_correct_json": 977,
+      "n_missing_index": 0,
+      "missing_indices_head": []
+    }
+  },
+  "notes": [
+    "宏观矩阵只读自 dataset/；题面回灌自 filtered_data/。",
+    "切换 single/multi/think/model 只需改可配置区或 CLI。",
+    "主表前仍建议跑 Gate（p_gate_splits.py）。"
+  ]
+}

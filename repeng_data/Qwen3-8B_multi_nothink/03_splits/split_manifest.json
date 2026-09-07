@@ -1,0 +1,46 @@
+{
+  "protocol": "gate_before_split",
+  "repeng_root": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink",
+  "seed": 42,
+  "fill_available": false,
+  "quotas_requested": {
+    "extraction_mmlu": 40,
+    "test_mmlu": 40,
+    "test_csqa": 300
+  },
+  "quotas_actual": {
+    "extraction_mmlu": 40,
+    "test_mmlu": 40,
+    "test_csqa": 300,
+    "total": 380
+  },
+  "pool_sizes": {
+    "mmlu_gate_valid": 87,
+    "csqa_gate_valid": 672,
+    "mmlu_unused_valid": 7,
+    "csqa_unused_valid": 372
+  },
+  "sources": {
+    "mmlu_valid": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/02_gate/mmlu/valid.json",
+    "csqa_valid": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/02_gate/csqa/valid.json"
+  },
+  "leak_check": {
+    "extract∩test_mmlu": 0,
+    "extract∩test_csqa": 0,
+    "test_mmlu∩test_csqa": 0,
+    "passed": true
+  },
+  "paths": {
+    "extraction_set_mmlu": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/03_splits/extraction_set_mmlu.json",
+    "test_set_mmlu": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/03_splits/test_set_mmlu.json",
+    "test_set_csqa": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/03_splits/test_set_csqa.json"
+  },
+  "policy": {
+    "extraction_domains": [
+      "mmlu"
+    ],
+    "ood_test_domain": "csqa",
+    "splits_are_gate_validated": true
+  },
+  "next_step": "python phase2_layerwise_profiling.py --extraction-set <repo-root>/repeng_data/Qwen3-8B_multi_nothink/03_splits/extraction_set_mmlu.json --output-dir <repo-root>/repeng_data/Qwen3-8B_multi_nothink/04_vectors --no-enable-thinking"
+}

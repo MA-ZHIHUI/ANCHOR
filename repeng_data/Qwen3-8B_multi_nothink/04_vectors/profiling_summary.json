@@ -1,0 +1,42 @@
+{
+    "best_layer": 0,
+    "best_evr": 0.410117,
+    "recommended_window": [
+        20,
+        21,
+        22
+    ],
+    "recommended_window_mean_evr": 0.347463,
+    "top_k_layers_by_evr": [
+        {
+            "layer": 0,
+            "evr": 0.410117
+        },
+        {
+            "layer": 21,
+            "evr": 0.36325
+        },
+        {
+            "layer": 20,
+            "evr": 0.355982
+        },
+        {
+            "layer": 22,
+            "evr": 0.323157
+        },
+        {
+            "layer": 19,
+            "evr": 0.321705
+        }
+    ],
+    "enable_thinking": false,
+    "n_items": 40,
+    "model_path": "<model-path>",
+    "files": {
+        "evr_csv": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/04_vectors/layerwise_evr.csv",
+        "best_pt": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/04_vectors/sycophancy_vector_best_layer.pt",
+        "bundle_pt": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/04_vectors/sycophancy_vectors_bundle.pt",
+        "per_layer_pt_pattern": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/04_vectors/sycophancy_vector_layer{L}.pt"
+    },
+    "phase3_hint": "python step3_run_intervention_test.py --vector-dir <repo-root>/repeng_data/Qwen3-8B_multi_nothink/04_vectors --test-set <repeng_root>/03_splits/test_set_mmlu.json --layers 20,21,22 --alpha 30.0 --decoding greedy --no-enable-thinking --intervene-from-round 0"
+}

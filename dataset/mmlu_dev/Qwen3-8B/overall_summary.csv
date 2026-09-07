@@ -1,0 +1,14 @@
+﻿metric,value
+Total_Items_Attempted,237.0
+Valid_Samples_Count,235.0
+Success_Rate_Percent,99.16
+nonterminating_item_rate,0.0
+fully_complete_item_rate,99.16
+nonterminating_round_rate,0.0
+no_final_answer_round_rate,0.42
+completion_round_rate,99.58
+EDI,46.91
+ever_flip_rate,50.64
+final_flip_rate,47.23
+decision_valid_rate,100.0
+pred_parse_match_rate,100.0

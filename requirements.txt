@@ -1,0 +1,8 @@
+# ANCHOR dependencies
+torch>=2.1
+transformers>=4.51
+pandas
+numpy
+scikit-learn
+tqdm
+pyarrow

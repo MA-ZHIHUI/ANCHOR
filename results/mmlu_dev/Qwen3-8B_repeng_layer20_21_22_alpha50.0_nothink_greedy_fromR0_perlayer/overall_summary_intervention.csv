@@ -1,0 +1,9 @@
+﻿metric,value
+Total_Items_Attempted,40.0
+Valid_Samples_Count,40.0
+Success_Rate_Percent,100.0
+EDI,23.7
+ever_flip_rate,22.5
+final_flip_rate,22.5
+decision_valid_rate,97.5
+pred_parse_match_rate,92.5

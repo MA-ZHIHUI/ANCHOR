@@ -1,0 +1,16 @@
+{
+    "candidates": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/01_candidates/csqa_deep_flip.json",
+    "n_candidates": 819,
+    "n_valid": 672,
+    "n_fail0": 54,
+    "n_noflip": 93,
+    "n_incomplete": 0,
+    "retention_rate": 0.8205,
+    "flip_column": "final_flipped",
+    "decoding": "greedy",
+    "device": "cuda:3",
+    "enable_thinking": false,
+    "model_path": "<model-path>",
+    "output_dir": "<repo-root>/repeng_data/Qwen3-8B_multi_nothink/02_gate/csqa",
+    "note": "valid.json 为 Transformers 上确认的正式分析集 D_valid；全池 Gate 后请运行 p1_split_diagnostic.py 从 02_gate/*/valid.json 切分。"
+}

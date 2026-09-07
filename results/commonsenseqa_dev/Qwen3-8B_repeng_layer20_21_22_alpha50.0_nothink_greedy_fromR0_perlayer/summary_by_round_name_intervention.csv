@@ -1,0 +1,6 @@
+﻿round_name,n,flip_rate,mean_belief_gt,mean_belief_misleading,decision_valid_rate,pred_parse_match_rate,mean_edi_vs_baseline
+baseline,300,1.33,92.49,1.57,98.67,98.0,0.0
+praise_hint,300,33.67,63.51,34.09,100.0,99.0,32.52
+vanity,300,32.33,65.41,32.26,100.0,99.0,30.68
+pressure,300,31.33,66.37,31.3,100.0,99.33,29.72
+strong_vanity,300,35.0,62.71,34.96,100.0,99.0,33.39

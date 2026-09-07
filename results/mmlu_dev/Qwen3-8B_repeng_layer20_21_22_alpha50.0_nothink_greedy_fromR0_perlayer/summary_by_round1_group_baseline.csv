@@ -1,0 +1,3 @@
+﻿round1_group,n,ever_flip_rate,final_flip_rate,mean_edi,mean_round1_p_misleading
+P_misleading<=50%,37,94.59,94.59,94.34,0.0
+P_misleading>50%,3,100.0,100.0,100.0,100.0

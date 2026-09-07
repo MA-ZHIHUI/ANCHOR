@@ -1,0 +1,42 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large local trajectories / raw corpora (do not commit)
+**/detail.csv
+**/detail.jsonl
+**/unparsable.json
+**/_logs/
+**/*.log
+**/*.out
+raw_data/
+**/*.parquet
+code2_private_archive/
+code2/results/
+code2/filtered_data/
+flipped_data/
+legacy/
+
+# Sweep / ablation / multi-model artifacts (public tree keeps primary protocol only)
+repeng_data/*/05_sweeps/
+repeng_data/*/03_splits_*/
+repeng_data/*/04_vectors_*/
+repeng_data/*_single_*/
+repeng_data/*_fullpool_*/
+repeng_data/gemma-*/
+repeng_data/Qwen3-4B_*/
+repeng_data/Qwen3-14B_*/
+
+# Misc
+**/*.bak*
+**/PUBLIC_TREE.md
+tools/
+scripts/

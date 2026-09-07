@@ -1,0 +1,1082 @@
+[
+    {
+        "question": "Where is a doormat likely to be in front of?",
+        "subject": "doormat",
+        "choices": {
+            "A": "facade",
+            "B": "front door",
+            "C": "doorway",
+            "D": "entrance porch",
+            "E": "hallway"
+        },
+        "answer": "B",
+        "misleading": "D",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 32,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What do you want someone to do when you illustrate point?",
+        "subject": "illustrate point",
+        "choices": {
+            "A": "did not understand",
+            "B": "accepting",
+            "C": "make clear",
+            "D": "understood",
+            "E": "understanding"
+        },
+        "answer": "E",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 77,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What would you be unable to do if you have too much greed?",
+        "subject": "greed",
+        "choices": {
+            "A": "keep things",
+            "B": "make friends",
+            "C": "play poker",
+            "D": "conquer opponent",
+            "E": "lie"
+        },
+        "answer": "B",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 80,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "A man wants air conditioning while we watches the game on Saturday, where will it likely be installed?",
+        "subject": "air conditioning",
+        "choices": {
+            "A": "car",
+            "B": "house",
+            "C": "offices",
+            "D": "park",
+            "E": "movie theatre"
+        },
+        "answer": "B",
+        "misleading": "E",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 92,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What could be playing a balailaika?",
+        "subject": "balalaika",
+        "choices": {
+            "A": "movie dr",
+            "B": "orchestra",
+            "C": "music store",
+            "D": "cat",
+            "E": "symphony"
+        },
+        "answer": "B",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 93,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "From where do aliens arrive?",
+        "subject": "aliens",
+        "choices": {
+            "A": "outer space",
+            "B": "weekly world news",
+            "C": "roswell",
+            "D": "universe",
+            "E": "mars"
+        },
+        "answer": "A",
+        "misleading": "B",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 101,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What could you get an unsmooth pit from?",
+        "subject": "pit",
+        "choices": {
+            "A": "backyard",
+            "B": "rock",
+            "C": "mine",
+            "D": "cherry",
+            "E": "peach"
+        },
+        "answer": "E",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 131,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What is performing a type of?",
+        "subject": "performing",
+        "choices": {
+            "A": "singing",
+            "B": "act",
+            "C": "feat",
+            "D": "smile",
+            "E": "acting"
+        },
+        "answer": "B",
+        "misleading": "D",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 181,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "The old style pop ups literally let you see the story when you did what?",
+        "subject": "see story",
+        "choices": {
+            "A": "giggle",
+            "B": "visualize",
+            "C": "open book",
+            "D": "reading",
+            "E": "go to movies"
+        },
+        "answer": "C",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 225,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Dad wanted to hide the check in his office, where did he put it?",
+        "subject": "check",
+        "choices": {
+            "A": "cash register",
+            "B": "desk drawer",
+            "C": "fish tank",
+            "D": "bank",
+            "E": "pay envelope"
+        },
+        "answer": "B",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 229,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "If not in a stream but in a market where will you find fish?",
+        "subject": "fish",
+        "choices": {
+            "A": "stream",
+            "B": "aquarium",
+            "C": "refrigerator",
+            "D": "boat ride",
+            "E": "market"
+        },
+        "answer": "C",
+        "misleading": "E",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 237,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Where can you buy jeans at one of may indoor merchants?",
+        "subject": "jeans",
+        "choices": {
+            "A": "gap",
+            "B": "shopping mall",
+            "C": "bedroom",
+            "D": "laundromat",
+            "E": "bathroom"
+        },
+        "answer": "B",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 248,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What city will likely have many parking structures?",
+        "subject": "parking structure",
+        "choices": {
+            "A": "chicago",
+            "B": "big city",
+            "C": "large city building",
+            "D": "environment",
+            "E": "college campus"
+        },
+        "answer": "A",
+        "misleading": "B",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 252,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Sally was afraid of danger and always double checked what?",
+        "subject": "danger",
+        "choices": {
+            "A": "fight enemy",
+            "B": "secure",
+            "C": "being safe",
+            "D": "safety",
+            "E": "vicinity"
+        },
+        "answer": "D",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 253,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Joe was thrown from his boat into the water.  The water was cold because it was the middle of winter and he cried out to his crew for help.  They couldn't hear him over the sound of the what?",
+        "subject": "water",
+        "choices": {
+            "A": "surface of earth",
+            "B": "teardrops",
+            "C": "snowflake",
+            "D": "typhoon",
+            "E": "motor"
+        },
+        "answer": "D",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 256,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "They passed a apple tree on their way to the racetrack, the were going to watch the biggest motorsport spectacle in the world where?",
+        "subject": "apple tree",
+        "choices": {
+            "A": "maryland",
+            "B": "indiana",
+            "C": "on tv",
+            "D": "park",
+            "E": "new jersey"
+        },
+        "answer": "B",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 258,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Sarah dropped the marble because she wanted to do what?",
+        "subject": "marble",
+        "choices": {
+            "A": "game",
+            "B": "pouch",
+            "C": "home",
+            "D": "store",
+            "E": "jar"
+        },
+        "answer": "A",
+        "misleading": "D",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 261,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Where are you likely to find a Japanese restaurant not run by people from Japan?",
+        "subject": "japanese restaurant",
+        "choices": {
+            "A": "california",
+            "B": "downtown",
+            "C": "large town",
+            "D": "tokio",
+            "E": "china town"
+        },
+        "answer": "A",
+        "misleading": "D",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 314,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What would you do if you have curiosity but are blind and paralyzed?",
+        "subject": "curiosity",
+        "choices": {
+            "A": "hear news",
+            "B": "analyse",
+            "C": "go somewhere",
+            "D": "examine thing",
+            "E": "see favorite show"
+        },
+        "answer": "B",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 334,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Where is the large area location of the empire state building?",
+        "subject": "empire state building",
+        "choices": {
+            "A": "manhattan",
+            "B": "office",
+            "C": "the city",
+            "D": "fifth avenue",
+            "E": "new york city"
+        },
+        "answer": "E",
+        "misleading": "D",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 338,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Zane doesn't like answering questions.  He's not good at it because he suffers from what?",
+        "subject": "answering questions",
+        "choices": {
+            "A": "panic",
+            "B": "discussion",
+            "C": "attention",
+            "D": "confusion",
+            "E": "satisfaction"
+        },
+        "answer": "D",
+        "misleading": "E",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 352,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "If it is Chrismas time what came most recently before?",
+        "subject": "christmas",
+        "choices": {
+            "A": "halloween",
+            "B": "summer",
+            "C": "easter",
+            "D": "kwaanza",
+            "E": "give gift"
+        },
+        "answer": "A",
+        "misleading": "D",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 355,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "John wanted to clean all of the dust out of his place before settling down to watch his favorite shows.  What might he hardest do dust?",
+        "subject": "dust",
+        "choices": {
+            "A": "closet",
+            "B": "under the bed",
+            "C": "television",
+            "D": "attic",
+            "E": "most buildings"
+        },
+        "answer": "D",
+        "misleading": "E",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 406,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Where is a shelf likely to be hidden behind a door?",
+        "subject": "shelf",
+        "choices": {
+            "A": "refrigerator",
+            "B": "bookstore",
+            "C": "cupboard",
+            "D": "school building",
+            "E": "wardrobe"
+        },
+        "answer": "C",
+        "misleading": "D",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 442,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "The electrode wouldn't spark, it turned out that the what hadn't been connected?",
+        "subject": "electrode",
+        "choices": {
+            "A": "battery",
+            "B": "electronic equipment",
+            "C": "electrolytic cell",
+            "D": "charge",
+            "E": "tube"
+        },
+        "answer": "A",
+        "misleading": "E",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 450,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "A potato is kept in the cellar, where is likely to be stored?",
+        "subject": "potato",
+        "choices": {
+            "A": "farmer's market",
+            "B": "grocery bag",
+            "C": "pantry",
+            "D": "bushel basket",
+            "E": "fridge"
+        },
+        "answer": "D",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 458,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Competing can lead to great highs, and also great lows when suffering what?",
+        "subject": "competing",
+        "choices": {
+            "A": "winning or losing",
+            "B": "aggression",
+            "C": "gain",
+            "D": "defeat",
+            "E": "sweat"
+        },
+        "answer": "D",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 484,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What blocks sunshine?",
+        "subject": "sunshine",
+        "choices": {
+            "A": "summer",
+            "B": "park",
+            "C": "desktop",
+            "D": "sea",
+            "E": "moon"
+        },
+        "answer": "E",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 485,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What does a farmer need to do to make  a maze on his farm in the fall?",
+        "subject": "farmer",
+        "choices": {
+            "A": "seed plants",
+            "B": "plant seeds",
+            "C": "garden",
+            "D": "grow corn",
+            "E": "produce food"
+        },
+        "answer": "D",
+        "misleading": "E",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 495,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Joan was a baby, so there were many things she couldn't do, which caused problems for her parents.  Name one thing that makes raising a baby difficult.",
+        "subject": "baby",
+        "choices": {
+            "A": "arrive early",
+            "B": "learn to walk",
+            "C": "boy or girl",
+            "D": "bring joy",
+            "E": "talk nonsense"
+        },
+        "answer": "E",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 511,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Running errands with screaming kids will likely cause what?",
+        "subject": "running errands",
+        "choices": {
+            "A": "efficiency",
+            "B": "insanity",
+            "C": "aggravation",
+            "D": "tiredness",
+            "E": "stress"
+        },
+        "answer": "C",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 512,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "WHere do people live?",
+        "subject": "people",
+        "choices": {
+            "A": "apartment",
+            "B": "eat cake",
+            "C": "bus depot",
+            "D": "football stadium",
+            "E": "surface of earth"
+        },
+        "answer": "E",
+        "misleading": "B",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 526,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Billy saw a dog running from him and did his best to get away from it.  The leaped up to where the dog couldn't reach and was stuck.  Where might he have been trapped?",
+        "subject": "dog",
+        "choices": {
+            "A": "kennel",
+            "B": "table",
+            "C": "porch",
+            "D": "backyard",
+            "E": "park"
+        },
+        "answer": "B",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 553,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "The bald eagle flew from Mount St Helen's to the Puget Sound and all over what?",
+        "subject": "bald eagle",
+        "choices": {
+            "A": "washington state",
+            "B": "utah",
+            "C": "pacific northwest",
+            "D": "northern california",
+            "E": "the desert"
+        },
+        "answer": "A",
+        "misleading": "E",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 573,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Where do you keep your pizza slice before you eat it?",
+        "subject": "pizza",
+        "choices": {
+            "A": "table",
+            "B": "plate",
+            "C": "restaurant",
+            "D": "oven",
+            "E": "popular"
+        },
+        "answer": "B",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 600,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Why is religion so hard to understand?",
+        "subject": "religion",
+        "choices": {
+            "A": "both positive and negative",
+            "B": "unknowable",
+            "C": "important to people",
+            "D": "ocean",
+            "E": "confusing"
+        },
+        "answer": "E",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 617,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Which group of states is Louisiana part of?",
+        "subject": "louisiana",
+        "choices": {
+            "A": "deep south",
+            "B": "98 of world's crayfish",
+            "C": "united states",
+            "D": "gulf states",
+            "E": "bible belt"
+        },
+        "answer": "D",
+        "misleading": "E",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 631,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "The rats were hiding in the house, where were they?",
+        "subject": "rats",
+        "choices": {
+            "A": "sewers",
+            "B": "laboratory",
+            "C": "basement",
+            "D": "clinic",
+            "E": "cellar"
+        },
+        "answer": "E",
+        "misleading": "B",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 634,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What might happen if someone is not losing weight?",
+        "subject": "losing weight",
+        "choices": {
+            "A": "loose skin",
+            "B": "beauty",
+            "C": "miss universe",
+            "D": "death",
+            "E": "healthier"
+        },
+        "answer": "D",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 641,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What could prevent a driving car from continuing to drive?",
+        "subject": "driving car",
+        "choices": {
+            "A": "automobile accidents",
+            "B": "backache",
+            "C": "pollution",
+            "D": "smoke",
+            "E": "low fuel tank"
+        },
+        "answer": "A",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 644,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Where might the stapler be if I cannot find it?",
+        "subject": "stapler",
+        "choices": {
+            "A": "office building",
+            "B": "office supply store",
+            "C": "desk drawer",
+            "D": "with dwight",
+            "E": "desktop"
+        },
+        "answer": "C",
+        "misleading": "D",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 672,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "If you're a child answering questions and an adult is asking them that adult is doing what?",
+        "subject": "answering questions",
+        "choices": {
+            "A": "discussion",
+            "B": "explaning",
+            "C": "teaching",
+            "D": "confusion",
+            "E": "correct"
+        },
+        "answer": "C",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 706,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "If I want to behave with proper aplomb, what manners should I avoid?",
+        "subject": "proper",
+        "choices": {
+            "A": "inappropriate",
+            "B": "incomplete",
+            "C": "impolite",
+            "D": "none",
+            "E": "incorrect"
+        },
+        "answer": "A",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 726,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "The man  tried to break the glass in order to make his escape in time, but he could not.  The person in the cat, trying to kill him, did what?",
+        "subject": "break",
+        "choices": {
+            "A": "accelerate",
+            "B": "putting together",
+            "C": "working",
+            "D": "construct",
+            "E": "train"
+        },
+        "answer": "A",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 735,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "James know that committing murder was wrong, but he thought that he could get away with it.  He was really troubled  and fearful because of what?",
+        "subject": "committing murder",
+        "choices": {
+            "A": "happiness",
+            "B": "problems",
+            "C": "prosecution",
+            "D": "distress",
+            "E": "misery"
+        },
+        "answer": "C",
+        "misleading": "D",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 799,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What room is likely to have a sideboard on the counter?",
+        "subject": "sideboard",
+        "choices": {
+            "A": "home",
+            "B": "serve food buffet",
+            "C": "dining room",
+            "D": "living room",
+            "E": "kitchen"
+        },
+        "answer": "E",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 811,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "What does impeachment mean for the president?",
+        "subject": "president",
+        "choices": {
+            "A": "vote",
+            "B": "election",
+            "C": "trouble",
+            "D": "board room",
+            "E": "corporation"
+        },
+        "answer": "C",
+        "misleading": "D",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 819,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Noble citizen of the Roman empire believed those born with lower status were what to them?",
+        "subject": "noble",
+        "choices": {
+            "A": "loser",
+            "B": "ignoble",
+            "C": "peasant",
+            "D": "inferior",
+            "E": "plebeian"
+        },
+        "answer": "D",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 820,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Where is hard to read note likely to be?",
+        "subject": "note",
+        "choices": {
+            "A": "fridge",
+            "B": "sheet music",
+            "C": "desk",
+            "D": "bed",
+            "E": "medical chart"
+        },
+        "answer": "E",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 823,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "James was someone who was caught in his own delusions.  To him, the truth didn't do what what?",
+        "subject": "truth",
+        "choices": {
+            "A": "work to advantage",
+            "B": "matter to",
+            "C": "help",
+            "D": "free mind",
+            "E": "further knowledge"
+        },
+        "answer": "B",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 843,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "If you own a cat where is the last place you'd want to find it?",
+        "subject": "cat",
+        "choices": {
+            "A": "trouble",
+            "B": "dog's mouth",
+            "C": "backyard",
+            "D": "nature",
+            "E": "home"
+        },
+        "answer": "B",
+        "misleading": "A",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 905,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "Sally was bored because she didn't like the junk that was on what?",
+        "subject": "junk",
+        "choices": {
+            "A": "drawer",
+            "B": "garage",
+            "C": "caddy",
+            "D": "bed",
+            "E": "television"
+        },
+        "answer": "E",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 953,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "John felt a snake slither over him as he rested.  He was afraid to raise his covers for fear of startling it.  Where might he be?",
+        "subject": "snake",
+        "choices": {
+            "A": "pet shops",
+            "B": "oklahoma",
+            "C": "basement",
+            "D": "bedroom",
+            "E": "dreams"
+        },
+        "answer": "D",
+        "misleading": "C",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 955,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    },
+    {
+        "question": "If you really wanted a grape, where would you go to get it?",
+        "subject": "grape",
+        "choices": {
+            "A": "winery",
+            "B": "fruit stand",
+            "C": "field",
+            "D": "kitchen",
+            "E": "food"
+        },
+        "answer": "B",
+        "misleading": "E",
+        "source": "csqa",
+        "model": "Qwen3-8B",
+        "protocol": "multi",
+        "enable_thinking": false,
+        "vllm_run": "Qwen3-8B",
+        "vllm_item_index": 971,
+        "filtered_correct": "<repo-root>/filtered_data/commonsenseqa_dev/Qwen3-8B/correct.json"
+    }
+]

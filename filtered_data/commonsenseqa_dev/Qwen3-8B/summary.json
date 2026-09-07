@@ -1,0 +1,12 @@
+{
+    "model": "Qwen3-8B",
+    "run_name": "Qwen3-8B",
+    "enable_thinking": false,
+    "source": "C:\\Users\\dell\\Desktop\\小论文速成\\code2\\raw_data\\commonsenseqa\\dev_rand_split.jsonl",
+    "total": 1221,
+    "correct": 977,
+    "incorrect": 239,
+    "unparsable": 5,
+    "accuracy": 0.8002,
+    "parse_fail_rate": 0.0041
+}
